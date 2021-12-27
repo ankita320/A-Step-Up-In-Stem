@@ -1,0 +1,66 @@
+# A-Step-Up-In-Stem
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>A Step Up In Stem</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>A Step Up In Stem</h1>
+    
+
+
+
+
+
+
+
+<div class="row">
+      <button><a href="index.html">Home</a></button>   
+      <button><a href="about.html">About Us</a></button> 
+      <button><a href="diverse.html">Importance of Diversity</a></button> 
+      <button><a href="pro.html">Problem And Solution</a></button> 
+      <button><a href="source.html">Resources</a></button> 
+      <button><a href="new.html">Newsletter</a></button>  
+      </div>
+
+
+
+    <section class= "userinput">
+    <h2><strong>Have some feedback for us? An opportunity you want to add to the list? A story you want to share?</strong></h2>
+    </section>
+    
+    <section>
+    <input class="text-input" type="text"></input>
+    <button class="submit-btn">Submit</button>
+    </section>
+
+ <script src="./script.js">
+ console.log("hello");
+var button = $('.submit-btn');
+var listContainer = $('.userinput')
+
+button.on('click', addStory);
+
+function addStory() {
+  console.log("hi");
+  var textInput = $('.text-input');
+  listContainer.append(`
+   <p>${textInput.val()}</p><p>Thank you for your feedback!</p>`)
+   textInput.val("");
+}
+
+
+    
+</script>
+  </body>
+</html>
+
+    
