@@ -1,0 +1,136 @@
+# A-Step-Up-In-Stem
+body{
+  background-color:#DDE7C7;
+}
+
+.row {
+  display: flex;
+  padding-right: 10px;
+  
+}
+
+button{
+  color: aliceblue;
+
+  font-size: 30px;
+  margin-right:4px;
+  background-color: rgb(238, 148, 160);
+border-width: 10px;
+border-color:rgb(238, 148, 160);
+
+}
+
+button:hover {
+ color: rgb(39, 17, 161);
+
+  font-size: 30px;
+  margin-right:4px;
+  background-color:rgb(157, 212, 199);
+border-width: 10px;
+border-color:rgb(157, 212, 199);
+
+} 
+
+a:link {
+  color: rgb(231, 212, 245);
+  text-decoration: none;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: bold;
+}
+
+
+a:hover {
+  color: rgb(231, 212, 245);
+  text-decoration: none;
+ font-family: 'Raleway', sans-serif;
+ text-decoration: bold;
+}
+
+
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+ padding-left: 0px;
+color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e6ad, 0 0 40px #35862e, 0 0 50px #5081c9, 0 0 60px #35862e, 0 0 70px #00e6db;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #9a4dff, 0 0 40px #ea4dff, 0 0 50px #35862e, 0 0 60px #35862e, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.a{
+  border-style: groove;
+  border-width: 10px;
+  border-color: rgb(196, 192, 255);
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: rgb(65, 56, 114);
+  background-color: rgb(226, 213, 241);
+}
+
+
+
+.pic {
+  margin-top:30px;
+  display: flex;
+  background-color: rgb(227, 240, 245);
+  border-style: groove;
+  border-width: 15px;
+  border-color: rgb(147, 192, 177);
+}
+
+.clock {
+  font-size: 65px;
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: rgb(33, 104, 109);
+
+}
+
+.yoo{
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #6842a5;
+  background-color:#c2b9ec;
+  padding-left: 540px;
+}
+
+
+.pi {
+  font-size: 20px;
+padding-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: rgb(62, 110, 66);
+  padding-right: 40px;
+
+}
+.go {
+   font-size: 40px;
+padding-right: 50px;
+padding-left: 30px;
+  font-family:'Cinzel', serif;
+  font-weight: bold;
+  color: rgb(75, 94, 146);
+}
+
+
+
+p {
+  border: 2px solid rgb(252, 189, 55);
+  background-color: rgb(255, 244, 206);
+  display: flex;
+
+}
